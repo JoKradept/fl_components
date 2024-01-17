@@ -2,12 +2,14 @@ import 'package:fl_components/router/app_routes.dart';
 import 'package:fl_components/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(AppState());
+void main() => runApp(const AppState());
 
 class AppState extends StatelessWidget {
+  const AppState({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MyApp();
+    return const MyApp();
     // return MultiProvider(
     //   providers: [ChangeNotifierProvider(create: (_) => PointService())],
     //   child: MyApp(),

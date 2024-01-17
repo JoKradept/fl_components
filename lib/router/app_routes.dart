@@ -47,6 +47,11 @@ class AppRoutes {
         name: 'Input Contenedor',
         screen: const InputScreen()),
     MenuOption(
+        route: 'slider',
+        icon: Icons.sort_outlined,
+        name: 'Slider',
+        screen: const SliderScreen()),
+    MenuOption(
         route: 'graphic',
         icon: Icons.auto_graph,
         name: 'Graphic',
